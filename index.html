@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BB网址发布页</title>
+    <link rel="stylesheet" href="styles.css?v=2" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="panel">
+        <h1>BB网址发布页</h1>
+        <p class="subtitle">以下为最新可用网址</p>
+
+        <div class="url-box is-hidden" id="site-url" aria-live="polite">最新网址已隐藏</div>
+        <button class="copy-button" type="button" id="copy-url">点击查看最新网址</button>
+        <p class="open-tip">复制网址用浏览器打开使用</p>
+        <p class="updated">网址更新时间：2016/5/30</p>
+      </section>
+
+      <section class="notice">
+        <div class="notice-mark" aria-hidden="true">!</div>
+        <div class="notice-content">
+          <p class="notice-label">重要提醒</p>
+          <h2>请务必保存本发布页网址</h2>
+          <ul>
+            <li>建议加入浏览器书签，或复制保存到聊天、备忘录。</li>
+            <li>以后旧网址无法打开时，请回到本页获取最新可用网址。</li>
+          </ul>
+        </div>
+      </section>
+
+      <p class="backup-contact">备用通知微信：aboutlizhi</p>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="script.js?v=2"></script>
+  </body>
+</html>
